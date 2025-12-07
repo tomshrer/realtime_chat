@@ -66,6 +66,7 @@
     "@tailwindcss/vite": "^4.1.17",
     "@vinejs/vine": "^3.0.1",
     "edge.js": "^6.2.1",
+    "nanoid": "^5.1.6",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
     "reflect-metadata": "^0.2.2",
