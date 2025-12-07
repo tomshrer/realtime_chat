@@ -13,3 +13,9 @@ router.on('/').renderInertia('home')
 const RoomsController = () => import('#controllers/rooms_controller')
 
 router.post('/create', [RoomsController, 'create']).prefix('room')
+
+router.get('/room/:id', async ({ params, inertia }) => {
+  return inertia.render('room/show', {
+    roomId: params.id,
+  })
+})
